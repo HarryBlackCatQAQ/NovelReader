@@ -18,6 +18,11 @@ public class IoUtil {
         }
     }
 
+    /**
+     * 创建存在在的路径文件/文件夹
+     * @param strPath
+     * @throws IOException
+     */
     public static void  mkDirs(String strPath) throws IOException {
         File file = new File(strPath);
         if (!file.exists()) {
@@ -26,17 +31,44 @@ public class IoUtil {
 
     }
 
+
+    /**
+     *
+     * @param path
+     * @return 系统分隔符替换后的路径
+     */
     public static String pathReplace(String path){
-        String fs = System.getProperties().getProperty("file.separator");
+        String fs = getSystemSeparator();
         return path.replace("\\",fs);
     }
 
+    /**
+     *
+     * @return 系统分隔符
+     */
+    public static String getSystemSeparator(){
+        return System.getProperties().getProperty("file.separator");
+    }
+
+    /**
+     *
+     * @return 项目路径
+     */
     public static String getSystemPath(){
         return System.getProperty("user.dir");
     }
 
 
+    /**
+     * fxml路径自动生成 输入fxml文件名即可
+     * @param path
+     * @return fxml在该项目的路径
+     */
     public static String fxmlPath(String path){
-        return pathReplace("file:\\" + getSystemPath() + "\\src\\main\\java\\com\\hhr\\javaFx\\fxml\\" + path) ;
+        String file_ = "file:";
+        if(getSystemSeparator().equals("\\")){
+            file_ += "\\";
+        }
+        return pathReplace(file_ + getSystemPath() + "\\src\\main\\java\\com\\hhr\\javaFx\\fxml\\" + path) ;
     }
 }

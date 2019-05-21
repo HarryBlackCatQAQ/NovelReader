@@ -17,7 +17,7 @@ import java.net.URL;
 public class MainUi extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception{
-        URL url = new URL(IoUtil.fxmlPath("demo.fxml"));
+        URL url = new URL(IoUtil.fxmlPath("main.fxml"));
         Parent root = FXMLLoader.load(url);
         primaryStage.setTitle("Hello World");
         primaryStage.setScene(new Scene(root));

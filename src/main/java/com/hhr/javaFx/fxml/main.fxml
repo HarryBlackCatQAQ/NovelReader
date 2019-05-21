@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.hhr.javaFx.controller.MainController">
+   <children>
+      <Text layoutX="170.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0" text="   免费小说阅读" wrappingWidth="300.0">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Text>
+      <JFXButton buttonType="RAISED" layoutX="80.0" layoutY="167.0" prefHeight="54.0" prefWidth="120.0" ripplerFill="#18fc03" style="-fx-background-color: #a8f1a2;" text="在线阅读" textFill="#070707">
+         <font>
+            <Font name="System Italic" size="21.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>
