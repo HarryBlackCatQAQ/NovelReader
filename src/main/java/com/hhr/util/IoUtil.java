@@ -71,4 +71,14 @@ public class IoUtil {
         }
         return pathReplace(file_ + getSystemPath() + "\\src\\main\\java\\com\\hhr\\javaFx\\fxml\\" + path) ;
     }
+
+    public static String imagePath(String imageName){
+        return "..\\fxml\\searchingBtn.jpg";
+//
+//        String file_ = "file:";
+//        if(getSystemSeparator().equals("\\")){
+//            file_ += "\\";
+//        }
+//        return pathReplace(file_ + getSystemPath() + "\\src\\main\\java\\com\\hhr\\javaFx\\" + imageName);
+    }
 }

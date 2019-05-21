@@ -1,6 +1,7 @@
 package com.hhr.javaFx;
 
 import com.hhr.util.IoUtil;
+import com.hhr.util.JavaFxUnit;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -17,10 +18,9 @@ import java.net.URL;
 public class MainUi extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception{
-        URL url = new URL(IoUtil.fxmlPath("main.fxml"));
-        Parent root = FXMLLoader.load(url);
         primaryStage.setTitle("Hello World");
-        primaryStage.setScene(new Scene(root));
+        System.out.println(primaryStage);
+        primaryStage.setScene(JavaFxUnit.getScene("main.fxml"));
         primaryStage.show();
     }
 
