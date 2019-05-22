@@ -21,10 +21,12 @@ public class JavaFxUnit {
         Parent root = FXMLLoader.load(url);
         Scene scene = new Scene(root);
 
+
         return scene;
     }
 
     public static Stage getStage(Control control){
+        System.out.println((Stage)control.getScene().getWindow());
         return (Stage)control.getScene().getWindow();
     }
 
