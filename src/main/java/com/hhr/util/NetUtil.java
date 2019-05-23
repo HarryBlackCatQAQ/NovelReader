@@ -1,6 +1,7 @@
 package com.hhr.util;
 
 import java.io.IOException;
+import java.io.InputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.net.URLConnection;
@@ -18,6 +19,17 @@ public class NetUtil {
         httpUrlConn.setRequestProperty("User-Agent", "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36)");
 
         return httpUrlConn;
+    }
+
+    public static InputStream getImageInputStream(String url){
+        InputStream inputStream = null;
+        try {
+            inputStream = getHttpURLConnection(url).getInputStream();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        return inputStream;
     }
 }
 

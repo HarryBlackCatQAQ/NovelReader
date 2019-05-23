@@ -1,6 +1,6 @@
 package com.hhr.javaFx;
 
-import com.hhr.util.JavaFxUnit;
+import com.hhr.util.JavaFxUtil;
 import javafx.application.Application;
 
 import javafx.stage.Stage;
@@ -16,7 +16,7 @@ public class MainUi extends Application {
     public void start(Stage primaryStage) throws Exception{
         primaryStage.setTitle("Hello World");
         System.out.println(primaryStage);
-        primaryStage.setScene(JavaFxUnit.getScene("main.fxml"));
+        primaryStage.setScene(JavaFxUtil.getScene("main.fxml"));
         primaryStage.show();
 
     }

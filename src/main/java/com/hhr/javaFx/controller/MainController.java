@@ -1,6 +1,6 @@
 package com.hhr.javaFx.controller;
 
-import com.hhr.util.JavaFxUnit;
+import com.hhr.util.JavaFxUtil;
 import com.jfoenix.controls.JFXButton;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -18,6 +18,6 @@ public class MainController {
     @FXML
     void onLineReadingBtnClick(ActionEvent event) throws Exception {
         System.out.println("在线阅读按钮点击！");
-        JavaFxUnit.ChangeStage(onLineReadingBtn,"search.fxml");
+        JavaFxUtil.ChangeStage(onLineReadingBtn,"search.fxml");
     }
 }

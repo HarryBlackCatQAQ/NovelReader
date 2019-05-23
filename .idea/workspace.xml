@@ -2,20 +2,43 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16cca578-f18d-4dad-9257-551e62221b4a" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hhr/model/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hhr/model/Page.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hhr/services/BaseService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hhr/test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hhr/cache/1539200" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hhr/cache/49" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hhr/images/从斗罗大陆开始的穿-流殇安.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hhr/images/斗罗大陆3龙王传说-唐家三少.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hhr/images/斗罗大陆III斗罗大陆-唐家三少.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hhr/images/斗罗大陆III龙王传说-唐家三少.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hhr/images/斗罗大陆IV终极斗罗-唐家三少.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hhr/images/斗罗大陆之七怪成神-冷岳颜.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hhr/images/斗罗大陆之世外尤物-雪夜慕雨.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hhr/images/斗罗大陆之千羽传奇-天王四海.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hhr/images/斗罗大陆之咫尺天涯-无往安澜.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hhr/images/斗罗大陆之大圣归来-全控之魂.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hhr/images/斗罗大陆之幻月空角-虹色月翼.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hhr/images/斗罗大陆之幻邪灵刃-幻羽凌漠.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hhr/images/斗罗大陆之最弱剑神-哭泣的天刀.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hhr/images/斗罗大陆之荒古传说-佚名执笔.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hhr/images/斗罗大陆之血与剑-太空茄子.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hhr/images/斗罗大陆之逆天龙魂-彗星与金刚.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hhr/images/斗罗大陆之黄金一代-周异飞2002.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hhr/images/斗罗大陆外传神界传-唐家三少.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hhr/images/斗罗大陆续集之史莱-洛星晨.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hhr/images/神石之从斗罗大陆开-优言.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hhr/test/thread/MyThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hhr/util/DownUnit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/hhr/test/thread/MyThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/hhr/util/DownUnit.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hhr/htmlUtil/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hhr/htmlUtil/test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hhr/javaFx/controller/CardPaneController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hhr/javaFx/controller/CardPaneController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hhr/cache/-1338945472" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hhr/cache/-1338945472" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/hhr/javaFx/controller/SearchController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hhr/javaFx/controller/SearchController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hhr/javaFx/fxml/cardPane.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hhr/javaFx/fxml/cardPane.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hhr/javaFx/fxml/search.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hhr/javaFx/fxml/search.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hhr/test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hhr/test/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/hhr/util/IoUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hhr/util/IoUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hhr/htmlUtil/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hhr/htmlUtil/test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hhr/javaFx/controller/CardPaneController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hhr/javaFx/controller/CardPaneController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hhr/util/NetUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hhr/util/NetUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/hhr/javaFx/controller/SearchController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hhr/javaFx/controller/SearchController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hhr/test/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hhr/test/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hhr/util/IoUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hhr/util/IoUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hhr/util/NetUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hhr/util/NetUtil.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,74 +47,70 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1571944178">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="-1338945472" value="5" />
+          <entry key="1539200" value="1" />
+          <entry key="49" value="2" />
+          <entry key="java" value="18" />
+          <entry key="jpg" value="6" />
+          <entry key="xml" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Image" value="6" />
+          <entry key="JAVA" value="18" />
+          <entry key="PLAIN_TEXT" value="8" />
+          <entry key="XML" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="1538" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="1538" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="NovelReader" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/hhr/javaFx/controller/SearchController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="99" column="50" selection-start-line="99" selection-start-column="50" selection-end-line="99" selection-end-column="50" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#searchingBtnClick#0;class#SearchController#0" />
-                <element signature="method#initPane#0;class#SearchController#0" />
-                <element signature="method#initCardList#0;class#SearchController#0" />
-                <element signature="method#setCardListVisible#0;class#SearchController#0" />
-                <element signature="e#4823#4824#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hhr/model/Page.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-129">
-              <caret line="59" column="9" selection-start-line="59" selection-start-column="9" selection-end-line="59" selection-end-column="9" />
-              <folding>
-                <element signature="e#1631#1632#0" expanded="true" />
-                <element signature="e#1935#1936#0" expanded="true" />
-                <element signature="e#2016#2017#0" expanded="true" />
-                <element signature="e#2115#2116#0" expanded="true" />
-                <element signature="e#2218#2219#0" expanded="true" />
-                <element signature="e#1746#1747#0" expanded="true" />
-                <element signature="e#1776#1777#0" expanded="true" />
-                <element signature="e#1819#1820#0" expanded="true" />
-                <element signature="e#1857#1858#0" expanded="true" />
-                <element signature="e#2008#2009#0" expanded="true" />
-                <element signature="e#2043#2044#0" expanded="true" />
-                <element signature="e#2096#2097#0" expanded="true" />
-                <element signature="e#2144#2145#0" expanded="true" />
-                <element signature="e#2178#2179#0" expanded="true" />
-                <element signature="e#2211#2212#0" expanded="true" />
-                <element signature="e#2260#2261#0" expanded="true" />
-                <element signature="e#2304#2305#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hhr/services/impl/QuanshuwangService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#296#297#0" expanded="true" />
-                <element signature="e#342#343#0" expanded="true" />
-                <element signature="e#477#478#0" expanded="true" />
-                <element signature="e#536#537#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hhr/services/BaseService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" column="56" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
+            <state relative-caret-position="275">
+              <caret line="95" column="26" selection-start-line="95" selection-start-column="26" selection-end-line="95" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -100,68 +119,34 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hhr/javaFx/controller/CardPaneController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hhr/test/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="74">
-              <caret line="75" column="8" selection-start-line="75" selection-start-column="8" selection-end-line="75" selection-end-column="8" />
+            <state relative-caret-position="344">
+              <caret line="83" column="8" selection-start-line="83" selection-start-column="8" selection-end-line="83" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#868#869#0" expanded="true" />
-                <element signature="e#884#885#0" expanded="true" />
-                <element signature="e#474#475#0" expanded="true" />
-                <element signature="e#533#534#0" expanded="true" />
-                <element signature="e#1611#1612#0" expanded="true" />
-                <element signature="e#1643#1644#0" expanded="true" />
-                <element signature="e#1678#1679#0" expanded="true" />
-                <element signature="e#1710#1711#0" expanded="true" />
-                <element signature="e#1760#1761#0" expanded="true" />
-                <element signature="e#1803#1804#0" expanded="true" />
-                <element signature="e#1854#1855#0" expanded="true" />
-                <element signature="e#1898#1899#0" expanded="true" />
-                <element signature="e#2189#2190#0" expanded="true" />
-                <element signature="e#2222#2223#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hhr/jache/JCache.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="36" selection-start-line="36" selection-end-line="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1281#1297#0" expanded="true" />
-                <element signature="e#1380#1381#0" expanded="true" />
-                <element signature="e#1437#1438#0" expanded="true" />
-                <element signature="e#3247#3248#0" expanded="true" />
-                <element signature="e#3317#3318#0" expanded="true" />
-                <element signature="e#9225#9226#0" expanded="true" />
-                <element signature="e#9260#9261#0" expanded="true" />
-                <element signature="e#12640#12641#0" expanded="true" />
-                <element signature="e#12681#12682#0" expanded="true" />
-                <element signature="e#12738#12739#0" expanded="true" />
-                <element signature="e#12768#12769#0" expanded="true" />
-                <element signature="e#15615#15616#0" expanded="true" />
-                <element signature="e#15685#15686#0" expanded="true" />
-                <element signature="e#17338#17339#0" expanded="true" />
-                <element signature="e#17382#17383#0" expanded="true" />
-                <element signature="e#17704#17705#0" expanded="true" />
-                <element signature="e#17756#17757#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hhr/test/Test.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hhr/util/DownUnit.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
+            <state relative-caret-position="158">
+              <caret line="27" column="27" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hhr/test/thread/MyThread.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="698">
+              <caret line="33" column="9" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -169,26 +154,51 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/hhr/util/IoUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="75" column="29" selection-start-line="75" selection-start-column="29" selection-end-line="75" selection-end-column="29" />
+            <state relative-caret-position="297">
+              <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
               <folding>
                 <element signature="e#1237#1238#0" expanded="true" />
                 <element signature="e#1290#1291#0" expanded="true" />
-                <element signature="e#1711#1712#0" expanded="true" />
-                <element signature="e#1795#1796#0" expanded="true" />
+                <element signature="e#1744#1745#0" expanded="true" />
+                <element signature="e#1834#1835#0" expanded="true" />
+                <element signature="e#1922#1923#0" expanded="true" />
+                <element signature="e#2015#2016#0" expanded="true" />
+                <element signature="e#2211#2212#0" expanded="true" />
+                <element signature="e#2239#2240#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hhr/crawler/impl/Quanshuwang.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hhr/jsoup/test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="47" column="38" selection-start-line="47" selection-start-column="38" selection-end-line="47" selection-end-column="38" />
+            <state relative-caret-position="837">
+              <caret line="45" column="25" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hhr/htmlUtil/test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="756">
+              <caret line="44" selection-start-line="44" selection-end-line="51" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hhr/util/NetUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="675">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
             </state>
           </provider>
         </entry>
@@ -212,6 +222,7 @@
       <find>ok</find>
       <find>out</find>
       <find>斗罗大陆IV终极斗罗</find>
+      <find>BufferedImage</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -254,13 +265,22 @@
         <option value="$PROJECT_DIR$/src/main/java/com/hhr/test/eventTest/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hhr/test/eventTest/MyEventSource.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hhr/model/Page.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hhr/javaFx/controller/SearchController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hhr/javaFx/controller/CardPaneController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hhr/jache/Jache.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hhr/util/IoUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hhr/test/thread/MyThread.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hhr/util/NetUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hhr/test/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hhr/util/IoUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hhr/javaFx/controller/SearchController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hhr/util/DownUnit.java" />
       </list>
     </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -281,10 +301,6 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="Profiles" type="6783ec58:MavenProjectsStructure$ProfilesNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="NovelReader" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
@@ -301,19 +317,52 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="x" value="81" />
-    <option name="y" value="59" />
-    <option name="width" value="1680" />
-    <option name="height" value="813" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1273" />
+    <option name="width" value="1294" />
+    <option name="height" value="1407" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>Android</id>
+          </State>
+          <State>
+            <id>CorrectnessLintAndroid</id>
+          </State>
+          <State>
+            <id>GeneralJavaScript</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>LintAndroid</id>
+          </State>
+          <State>
+            <id>PerformanceLintAndroid</id>
+          </State>
+          <State>
+            <id>WSDL</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -354,128 +403,37 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="hhr" type="462c0819:PsiDirectoryNode" />
-              <item name="cache" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NovelReader" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NovelReader" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hhr" type="462c0819:PsiDirectoryNode" />
-              <item name="crawler" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NovelReader" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NovelReader" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hhr" type="462c0819:PsiDirectoryNode" />
-              <item name="crawler" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NovelReader" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NovelReader" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hhr" type="462c0819:PsiDirectoryNode" />
-              <item name="htmlUtil" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NovelReader" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NovelReader" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hhr" type="462c0819:PsiDirectoryNode" />
-              <item name="javaFx" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NovelReader" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NovelReader" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hhr" type="462c0819:PsiDirectoryNode" />
-              <item name="javaFx" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NovelReader" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NovelReader" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hhr" type="462c0819:PsiDirectoryNode" />
-              <item name="javaFx" type="462c0819:PsiDirectoryNode" />
-              <item name="fxml" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NovelReader" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NovelReader" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hhr" type="462c0819:PsiDirectoryNode" />
-              <item name="jsoup" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NovelReader" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NovelReader" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hhr" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NovelReader" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NovelReader" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hhr" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NovelReader" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NovelReader" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hhr" type="462c0819:PsiDirectoryNode" />
               <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558617117145" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558626620095" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/新建文件夹/JFoenix-master/JFoenix-master" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\GitWarehouse\NovelReade\src\main\java\com\hhr\javaFx\fxml" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\GitWarehouse\NovelReader\src\main\java\com\hhr\javaFx\controller" />
       <recent name="E:\GitWarehouse\NovelReader\src" />
       <recent name="E:\GitWarehouse\NovelReader\src\main\java\com\hhr\javaFx\fxml" />
       <recent name="E:\GitWarehouse\NovelReade\src\main\java\com\hhr" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\GitWarehouse\NovelReade\src\main\java\com\hhr\javaFx\fxml" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -565,8 +523,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test" />
         <item itemvalue="Application.MainUi" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.Test (1)" />
         <item itemvalue="Application.test (1)" />
         <item itemvalue="Application.test" />
@@ -595,28 +553,29 @@
       <workItem from="1558500032604" duration="147000" />
       <workItem from="1558500201917" duration="454000" />
       <workItem from="1558500662622" duration="24991000" />
+      <workItem from="1558617658820" duration="609000" />
+      <workItem from="1558618298613" duration="8141000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54521000" />
+    <option name="totallyTimeSpent" value="63271000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
+    <frame x="1273" y="0" width="1294" height="1407" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21672772" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49963424" visible="true" weight="0.33711508" />
+      <window_info id="Structure" order="1" sideWeight="0.5003658" side_tool="true" weight="0.21860096" />
       <window_info id="设计器" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Favorites" order="6" sideWeight="0.5003658" side_tool="true" weight="0.21860096" />
       <window_info id="Designer" order="7" />
-      <window_info anchor="bottom" id="Duplicate detector" weight="0.32891566" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32857144" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3255102" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3278302" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32704404" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -626,63 +585,33 @@
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32650602" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.31996855" />
       <window_info anchor="bottom" id="调试" order="13" />
+      <window_info anchor="bottom" id="Duplicate detector" order="14" weight="0.32891566" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info anchor="right" id="Maven" order="4" weight="0.32967034" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Database" order="6" weight="0.3298887" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="调色板" order="8" />
       <window_info anchor="right" id="Palette" order="9" />
-      <window_info anchor="right" id="Maven Projects" order="10" weight="0.32962963" />
+      <window_info anchor="right" id="Maven Projects" order="10" weight="0.671799" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hhr/javaFx/fxml/MainUi.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hhr/javaFx/demo.fxml" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hhr/javaFx/controller/ddd.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hhr/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-          <folding>
-            <element signature="e#166#167#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hhr/javaFx/controller/demoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/jfoenix/jfoenix/8.0.8/jfoenix-8.0.8.jar!/com/jfoenix/controls/JFXButton.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="29" column="35" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/javafx-src.zip!/javafx/scene/control/Button.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/javafx-src.zip!/javafx/scene/control/ButtonBase.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/javafx-src.zip!/javafx/scene/control/Labeled.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/javafx-src.zip!/javafx/scene/control/Control.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hhr/javaFx/demoUi.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hhr/javaFx/fxml/demo.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder" />
@@ -694,9 +623,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/searchingBtn.jpg">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hhr/util/NetUtil.java">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hhr/javaFx/fxml/main.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder" />
@@ -723,25 +649,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hhr/test/testController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="23" column="71" lean-forward="true" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="71" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#958#959#0" expanded="true" />
-            <element signature="e#995#996#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="59" selection-start-line="59" selection-end-line="59" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hhr/test/testController.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hhr/javaFx/fxml/search.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
@@ -770,52 +678,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/javafx-src.zip!/javafx/application/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="304" column="25" selection-start-line="304" selection-start-column="25" selection-end-line="304" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hhr/crawler/quanshuwang/htmlUnit/getHtmlPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hhr/crawler/quanshuwang/crawler/htmlUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hhr/crawler/quanshuwang/htmlUntil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hhr/crawler/quanshuwang/BaseCrawler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="9" lean-forward="true" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/javafx-src.zip!/javafx/application/Application.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hhr/crawler/quanshuwang/htmlUnit/getHtmlPage.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hhr/crawler/quanshuwang/crawler/htmlUtil.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hhr/crawler/quanshuwang/htmlUntil.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hhr/crawler/quanshuwang/BaseCrawler.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/com/hhr/AppTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-          <folding>
-            <element signature="e#241#242#0" expanded="true" />
-            <element signature="e#275#276#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -823,16 +694,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="373">
           <caret line="29" selection-start-line="29" selection-end-line="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hhr/htmlUtil/test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-136">
-          <caret line="44" selection-start-line="44" selection-end-line="51" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -888,16 +749,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hhr/javaFx/MainUi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hhr/crawler/MyJsoup.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
@@ -908,75 +759,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hhr/test/MyEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="75" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#733#734#0" expanded="true" />
-            <element signature="e#756#757#0" expanded="true" />
-            <element signature="e#817#818#0" expanded="true" />
-            <element signature="e#845#846#0" expanded="true" />
-            <element signature="e#909#910#0" expanded="true" />
-            <element signature="e#940#941#0" expanded="true" />
-            <element signature="e#1562#1563#0" expanded="true" />
-            <element signature="e#1590#1591#0" expanded="true" />
-            <element signature="e#1833#1834#0" expanded="true" />
-            <element signature="e#1859#1860#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hhr/test/eventTest/MyEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="e#359#360#0" expanded="true" />
-            <element signature="e#385#386#0" expanded="true" />
-            <element signature="e#420#421#0" expanded="true" />
-            <element signature="e#448#449#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hhr/test/eventTest/MyEventListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hhr/test/eventTest/MyEventSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-346">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#231#232#0" expanded="true" />
-            <element signature="e#254#255#0" expanded="true" />
-            <element signature="e#315#316#0" expanded="true" />
-            <element signature="e#343#344#0" expanded="true" />
-            <element signature="e#407#408#0" expanded="true" />
-            <element signature="e#438#439#0" expanded="true" />
-            <element signature="e#1060#1061#0" expanded="true" />
-            <element signature="e#1088#1089#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hhr/test/eventTest/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="15" column="42" lean-forward="true" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
-          <folding>
-            <element signature="e#341#342#0" expanded="true" />
-            <element signature="e#367#368#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hhr/test/MyEvent.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hhr/test/eventTest/MyEvent.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hhr/test/eventTest/MyEventListener.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hhr/test/eventTest/MyEventSource.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hhr/test/eventTest/Test.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hhr/javaFx/fxml/cardPane.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
@@ -985,14 +772,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hhr/model/Page.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1593">
+          <caret line="59" column="9" selection-start-line="59" selection-start-column="9" selection-end-line="59" selection-end-column="9" />
+          <folding>
+            <element signature="e#1601#1602#0" expanded="true" />
+            <element signature="e#1631#1632#0" expanded="true" />
+            <element signature="e#1905#1906#0" expanded="true" />
+            <element signature="e#1935#1936#0" expanded="true" />
+            <element signature="e#1978#1979#0" expanded="true" />
+            <element signature="e#2016#2017#0" expanded="true" />
+            <element signature="e#2071#2072#0" expanded="true" />
+            <element signature="e#2115#2116#0" expanded="true" />
+            <element signature="e#2172#2173#0" expanded="true" />
+            <element signature="e#2218#2219#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hhr/services/impl/QuanshuwangService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
+        <state relative-caret-position="324">
           <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#296#297#0" expanded="true" />
-            <element signature="e#342#343#0" expanded="true" />
             <element signature="e#477#478#0" expanded="true" />
             <element signature="e#536#537#0" expanded="true" />
           </folding>
@@ -1001,8 +805,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hhr/services/BaseService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
+        <state relative-caret-position="135">
           <caret line="7" column="56" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hhr/javaFx/controller/CardPaneController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1458">
+          <caret line="75" column="8" selection-start-line="75" selection-start-column="8" selection-end-line="75" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1011,7 +825,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hhr/crawler/impl/Quanshuwang.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
+        <state relative-caret-position="999">
           <caret line="47" column="38" selection-start-line="47" selection-start-column="38" selection-end-line="47" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1019,117 +833,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hhr/model/Page.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-129">
-          <caret line="59" column="9" selection-start-line="59" selection-start-column="9" selection-end-line="59" selection-end-column="9" />
-          <folding>
-            <element signature="e#1631#1632#0" expanded="true" />
-            <element signature="e#1935#1936#0" expanded="true" />
-            <element signature="e#2016#2017#0" expanded="true" />
-            <element signature="e#2115#2116#0" expanded="true" />
-            <element signature="e#2218#2219#0" expanded="true" />
-            <element signature="e#1746#1747#0" expanded="true" />
-            <element signature="e#1776#1777#0" expanded="true" />
-            <element signature="e#1819#1820#0" expanded="true" />
-            <element signature="e#1857#1858#0" expanded="true" />
-            <element signature="e#2008#2009#0" expanded="true" />
-            <element signature="e#2043#2044#0" expanded="true" />
-            <element signature="e#2096#2097#0" expanded="true" />
-            <element signature="e#2144#2145#0" expanded="true" />
-            <element signature="e#2178#2179#0" expanded="true" />
-            <element signature="e#2211#2212#0" expanded="true" />
-            <element signature="e#2260#2261#0" expanded="true" />
-            <element signature="e#2304#2305#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="299">
+          <caret line="50" column="30" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hhr/javaFx/controller/SearchController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hhr/javaFx/MainUi.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="99" column="50" selection-start-line="99" selection-start-column="50" selection-end-line="99" selection-end-column="50" />
+        <state relative-caret-position="216">
+          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#searchingBtnClick#0;class#SearchController#0" />
-            <element signature="method#initPane#0;class#SearchController#0" />
-            <element signature="method#initCardList#0;class#SearchController#0" />
-            <element signature="method#setCardListVisible#0;class#SearchController#0" />
-            <element signature="e#4823#4824#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hhr/javaFx/controller/CardPaneController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
-          <caret line="75" column="8" selection-start-line="75" selection-start-column="8" selection-end-line="75" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#868#869#0" expanded="true" />
-            <element signature="e#884#885#0" expanded="true" />
-            <element signature="e#474#475#0" expanded="true" />
-            <element signature="e#533#534#0" expanded="true" />
-            <element signature="e#1611#1612#0" expanded="true" />
-            <element signature="e#1643#1644#0" expanded="true" />
-            <element signature="e#1678#1679#0" expanded="true" />
-            <element signature="e#1710#1711#0" expanded="true" />
-            <element signature="e#1760#1761#0" expanded="true" />
-            <element signature="e#1803#1804#0" expanded="true" />
-            <element signature="e#1854#1855#0" expanded="true" />
-            <element signature="e#1898#1899#0" expanded="true" />
-            <element signature="e#2189#2190#0" expanded="true" />
-            <element signature="e#2222#2223#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hhr/jsoup/test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="45" column="25" lean-forward="true" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hhr/jache/JCache.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1281#1297#0" expanded="true" />
-            <element signature="e#1380#1381#0" expanded="true" />
-            <element signature="e#1437#1438#0" expanded="true" />
-            <element signature="e#3247#3248#0" expanded="true" />
-            <element signature="e#3317#3318#0" expanded="true" />
-            <element signature="e#9225#9226#0" expanded="true" />
-            <element signature="e#9260#9261#0" expanded="true" />
-            <element signature="e#12640#12641#0" expanded="true" />
-            <element signature="e#12681#12682#0" expanded="true" />
-            <element signature="e#12738#12739#0" expanded="true" />
-            <element signature="e#12768#12769#0" expanded="true" />
-            <element signature="e#15615#15616#0" expanded="true" />
-            <element signature="e#15685#15686#0" expanded="true" />
-            <element signature="e#17338#17339#0" expanded="true" />
-            <element signature="e#17382#17383#0" expanded="true" />
-            <element signature="e#17704#17705#0" expanded="true" />
-            <element signature="e#17756#17757#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hhr/util/IoUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="75" column="29" selection-start-line="75" selection-start-column="29" selection-end-line="75" selection-end-column="29" />
-          <folding>
-            <element signature="e#1237#1238#0" expanded="true" />
-            <element signature="e#1290#1291#0" expanded="true" />
-            <element signature="e#1711#1712#0" expanded="true" />
-            <element signature="e#1795#1796#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1137,10 +853,119 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hhr/cache/-1338945472">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hhr/cache/49">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hhr/cache/1539200">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hhr/jache/JCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="333" column="45" selection-start-line="333" selection-start-column="32" selection-end-line="333" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hhr/util/NetUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hhr/jsoup/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="837">
+          <caret line="45" column="25" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hhr/htmlUtil/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="44" selection-start-line="44" selection-end-line="51" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hhr/images/1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hhr/images/4.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hhr/images/5.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hhr/util/IoUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+          <folding>
+            <element signature="e#1237#1238#0" expanded="true" />
+            <element signature="e#1290#1291#0" expanded="true" />
+            <element signature="e#1744#1745#0" expanded="true" />
+            <element signature="e#1834#1835#0" expanded="true" />
+            <element signature="e#1922#1923#0" expanded="true" />
+            <element signature="e#2015#2016#0" expanded="true" />
+            <element signature="e#2211#2212#0" expanded="true" />
+            <element signature="e#2239#2240#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hhr/test/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
+        <state relative-caret-position="344">
+          <caret line="83" column="8" selection-start-line="83" selection-start-column="8" selection-end-line="83" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hhr/test/thread/MyThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="698">
+          <caret line="33" column="9" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hhr/images/从斗罗大陆开始的穿-流殇安.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hhr/images/斗罗大陆3龙王传说-唐家三少.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hhr/javaFx/controller/SearchController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="95" column="26" selection-start-line="95" selection-start-column="26" selection-end-line="95" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/Runnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="51" column="41" lean-forward="true" selection-start-line="51" selection-start-column="41" selection-end-line="51" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hhr/util/DownUnit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="27" column="27" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1204,7 +1029,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -1212,7 +1036,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: com.gluonhq:charm-glisten:4.4.5</last-edited>
+          <last-edited>Maven: com.jfoenix:jfoenix:8.0.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

@@ -1,10 +1,10 @@
 package com.hhr.javaFx.controller;
 
-import com.gluonhq.charm.glisten.control.CardPane;
 import com.hhr.model.Book;
 import com.hhr.model.Page;
 import com.hhr.services.BaseService;
 import com.hhr.services.impl.QuanshuwangService;
+import com.hhr.util.DownUtil;
 import com.jfoenix.controls.JFXButton;
 import com.jfoenix.controls.JFXSpinner;
 import com.jfoenix.controls.JFXTextField;
@@ -12,11 +12,7 @@ import javafx.application.Platform;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
-import javafx.scene.control.Label;
-import javafx.scene.image.Image;
-import javafx.scene.image.ImageView;
 import javafx.scene.layout.AnchorPane;
-import javafx.scene.paint.Color;
 
 
 import java.net.MalformedURLException;
@@ -98,6 +94,9 @@ public class SearchController implements Initializable {
             page.setPageSum(BookList.size());
             System.out.println(BookList);
             System.out.println(page.getPageSum());
+
+            DownUtil downUtil = new DownUtil(5);
+            downUtil.DownImage(BookList);
 
             //DO SOMETHING WITH CONTROLLS ON FX THREAD ACCORDING RESULT OF OVER
             Platform.runLater(() -> {

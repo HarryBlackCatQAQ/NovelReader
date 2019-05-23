@@ -14,7 +14,7 @@ import java.net.URL;
  * @Date: 2019/5/21 22:22
  * @Version 1.0
  */
-public class JavaFxUnit {
+public class JavaFxUtil {
 
     public static Scene getScene(String fxmlName) throws IOException {
         URL url = new URL(IoUtil.fxmlPath(fxmlName));
@@ -31,7 +31,7 @@ public class JavaFxUnit {
     }
 
     public static void ChangeStage(Control control ,String fxmlName) throws IOException {
-        Stage stage = JavaFxUnit.getStage(control);
-        stage.setScene(JavaFxUnit.getScene(fxmlName));
+        Stage stage = JavaFxUtil.getStage(control);
+        stage.setScene(JavaFxUtil.getScene(fxmlName));
     }
 }

@@ -8,6 +8,13 @@ import java.io.*;
  * @Version 1.0
  */
 public class IoUtil {
+    /**
+     * 拿取图片的InputStream下载图片
+     * @param inputStream
+     * @param imageName
+     * @param path
+     * @throws IOException
+     */
     public static void writeImage(InputStream inputStream,String imageName,String path) throws IOException {
         mkDirs(path);
         OutputStream outputStream = new FileOutputStream(new File(path,imageName));
@@ -72,18 +79,23 @@ public class IoUtil {
         return pathReplace(file_ + getSystemPath() + "\\src\\main\\java\\com\\hhr\\javaFx\\fxml\\" + path) ;
     }
 
-
-    public static String getCachePaht(){
+    /**
+     *
+     * @return 返回缓存数据的路径
+     */
+    public static String getCachePath(){
         return pathReplace(getSystemPath() + "\\src\\main\\java\\com\\hhr\\cache");
     }
 
-    public static String imagePath(String imageName){
-        return "..\\fxml\\searchingBtn.jpg";
-//
-//        String file_ = "file:";
-//        if(getSystemSeparator().equals("\\")){
-//            file_ += "\\";
-//        }
-//        return pathReplace(file_ + getSystemPath() + "\\src\\main\\java\\com\\hhr\\javaFx\\" + imageName);
+    /**
+     *
+     * @return 返回图片存储路径
+     */
+    public static String imagePath(){
+        return pathReplace(getSystemPath() + "\\src\\main\\java\\com\\hhr\\images\\");
+    }
+
+    public static String getSuffix(String string){
+        return string.substring(string.lastIndexOf("."));
     }
 }
