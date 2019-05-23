@@ -32,33 +32,38 @@ public class test {
         // 获取搜索输入框
         HtmlInput input = (HtmlInput) page.getHtmlElementById("bdcsMain");
         // 往输入框 “填值”
-        input.setValueAttribute("都市最强狂兵");
+        input.setValueAttribute("斗罗大陆");
         // 获取搜索按钮
         HtmlInput btn = (HtmlInput) page.getHtmlElementById("searchbuttom");
         // “点击” 搜索
         HtmlPage page2 = btn.click();
 
+        System.out.println(page2.asXml());
+
 
 
         //选择阅读按钮
-        int len = page2.getByXPath("//*[@id=\"container\"]/div[2]/section/div/div[1]/div[2]/a[1]").size();
-        HtmlAnchor btnAnchor = null;
-        if(len == 0) {
-            System.out.println("@");
-            btnAnchor = (HtmlAnchor) page2.getByXPath("//*[@id=\"navList\"]/section/ul/li[1]/span/a[3]").get(0);
-            page2 = btnAnchor.click();
-        }
+//        int len = page2.getByXPath("//*[@id=\"container\"]/div[2]/section/div/div[1]/div[2]/a[1]").size();
+//        HtmlAnchor btnAnchor = null;
+//        if(len == 0) {
+//            System.out.println("@");
+//            btnAnchor = (HtmlAnchor) page2.getByXPath("//*[@id=\"navList\"]/section/ul/li[1]/span/a[3]").get(0);
+//            page2 = btnAnchor.click();
+//        }
 
-        btnAnchor = (HtmlAnchor) page2.getByXPath("//*[@id=\"container\"]/div[2]/section/div/div[1]/div[2]/a[1]").get(0);
+//        btnAnchor = (HtmlAnchor) page2.getByXPath("//*[@id=\"container\"]/div[2]/section/div/div[1]/div[2]/a[1]").get(0);
 
 
         // “点击” 阅读
-        HtmlPage page3 = btnAnchor.click();
+//        HtmlPage page3 = btnAnchor.click();
+
+
+
 //        System.out.println(page.getByXPath("//*[@id=\"container\"]/div[2]/section/div/div[1]/div[2]/a[1]"));
 //        System.out.println(btnAnchor);
 //        System.out.println(page3.asXml());
 
-        com.hhr.jsoup.test.solve(page3.asXml());
+//        com.hhr.jsoup.test.solve(page3.asXml());
 
 //        // 选择元素
 //        List<HtmlElement> spanList=page2.getByXPath("//h3[@class='res-title']/a");

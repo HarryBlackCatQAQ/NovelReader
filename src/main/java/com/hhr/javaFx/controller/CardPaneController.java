@@ -1,12 +1,16 @@
 package com.hhr.javaFx.controller;
 
+import com.hhr.model.Book;
 import com.hhr.util.IoUtil;
 import com.jfoenix.controls.JFXButton;
+import com.sun.javafx.tk.ImageLoader;
+import com.sun.javafx.tk.PlatformImage;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Label;
+import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.AnchorPane;
 
@@ -26,6 +30,9 @@ public class CardPaneController extends AnchorPane implements Initializable {
 
     @FXML
     private Label cardTtile;
+
+    @FXML
+    private Label cardAuthor;
 
     @FXML
     private JFXButton cardOnlineReadingBtn;
@@ -61,7 +68,13 @@ public class CardPaneController extends AnchorPane implements Initializable {
         }
     }
 
+    public void setCardPaneController(Book book){
+        cardImage.setImage(new Image(book.getImageUrl()));
+        cardTtile.setText(book.getName());
+        cardAuthor.setText(book.getAuthor());
 
+        
+    }
 
 
     @Override
@@ -84,5 +97,9 @@ public class CardPaneController extends AnchorPane implements Initializable {
 
     public JFXButton getCardOfflineReadingBtn() {
         return cardOfflineReadingBtn;
+    }
+
+    public Label getCardAuthor() {
+        return cardAuthor;
     }
 }

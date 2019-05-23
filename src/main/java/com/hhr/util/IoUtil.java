@@ -72,6 +72,11 @@ public class IoUtil {
         return pathReplace(file_ + getSystemPath() + "\\src\\main\\java\\com\\hhr\\javaFx\\fxml\\" + path) ;
     }
 
+
+    public static String getCachePaht(){
+        return pathReplace(getSystemPath() + "\\src\\main\\java\\com\\hhr\\cache");
+    }
+
     public static String imagePath(String imageName){
         return "..\\fxml\\searchingBtn.jpg";
 //
