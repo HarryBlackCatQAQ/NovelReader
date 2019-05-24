@@ -21,11 +21,9 @@ public class Quanshuwang extends BaseCrawlerImpl {
 
     @Override
     public List<Book> Searching(String searchContent){
-        HtmlUnit htmlUnit = new HtmlUnit();
-        MyJsoup myJsoup = new MyJsoup();
 
         try {
-            HtmlPage page = htmlUnit.getHtmlPage("http://www.quanshuwang.com/");
+            HtmlPage page = this.getHtmlUnit().getHtmlPage("http://www.quanshuwang.com/");
 
             // 获取搜索输入框
             HtmlInput input = (HtmlInput) page.getHtmlElementById("bdcsMain");
@@ -39,7 +37,7 @@ public class Quanshuwang extends BaseCrawlerImpl {
             // “点击” 搜索
             HtmlPage page2 = btn.click();
 
-            this.setBookList(myJsoup.AnalysisOfTheBook(page2.asXml(),"quanshuwang"));
+            this.setBookList(this.getMyJsoup().AnalysisOfTheBook(page2.asXml(),"quanshuwang"));
 
         } catch (IOException e) {
             e.printStackTrace();

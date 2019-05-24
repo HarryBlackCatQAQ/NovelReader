@@ -23,7 +23,7 @@ public class HtmlUnit {
         // 获取指定网页实体
         HtmlPage page = null;
         try {
-            page = (HtmlPage) webClient.getPage("http://www.quanshuwang.com/");
+            page = (HtmlPage) webClient.getPage(url);
         } catch (IOException e) {
             e.printStackTrace();
         }

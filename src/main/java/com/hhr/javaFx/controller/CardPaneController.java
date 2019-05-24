@@ -14,6 +14,7 @@ import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.AnchorPane;
 
+import java.io.File;
 import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -69,11 +70,12 @@ public class CardPaneController extends AnchorPane implements Initializable {
     }
 
     public void setCardPaneController(Book book){
-        cardImage.setImage(new Image(book.getImageUrl()));
+//        System.out.println(IoUtil.getImageUrl(book.getImageName()));
+        cardImage.setImage(new Image(IoUtil.getImageUrl(book.getImageName())));
         cardTtile.setText(book.getName());
         cardAuthor.setText(book.getAuthor());
 
-        
+
     }
 
 

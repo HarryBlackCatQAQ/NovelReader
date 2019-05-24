@@ -1,5 +1,6 @@
 package com.hhr.util;
 
+import com.hhr.javaFx.controller.SearchController;
 import com.hhr.model.Book;
 
 import java.io.File;
@@ -23,30 +24,35 @@ public class DownUtil {
     }
 
 
-    public void DownImage(List<Book> BookList){
+    public void DownImage(List<Book> BookList,SearchController searchController){
         for(Book book : BookList){
             fixedThreadPool.execute(new Thread(()->{
                 try {
-                    String imageName = book.getName() + "-" + book.getAuthor() + IoUtil.getSuffix(book.getImageUrl());
-
-                    File file = new File(IoUtil.imagePath() + imageName);
+                    File file = new File(IoUtil.imagePath() + book.getImageName());
 
                     if(file.exists()){
-                        System.out.println(imageName + " 已存在!");
+                        System.out.println(book.getImageName() + " 已存在!");
                     }
                     else{
                         IoUtil.writeImage(NetUtil.getImageInputStream(book.getImageUrl()),
-                                imageName,
+                                book.getImageName(),
                                 IoUtil.imagePath());
 
-                        System.out.println(imageName + "   下载成功！");
+                        System.out.println(book.getImageName() + "   下载成功！");
                     }
 
 
                 } catch (IOException e) {
-                    e.printStackTrace();
+//                    e.printStackTrace();
+                    System.out.println("图片加载不到 1");
                 }
+
+                searchController.doServiceLater();
+//                System.out.println(searchController + "  2");
+//                System.out.println("ok");
             }));
         }
+
+        fixedThreadPool.shutdown();
     }
 }

@@ -1,4 +1,4 @@
-package com.hhr.test;
+package com.hhr.test.thread;
 
 import com.hhr.crawler.BaseCrawler;
 import com.hhr.crawler.impl.Quanshuwang;
@@ -19,7 +19,7 @@ import java.util.concurrent.Executors;
  * @Version 1.0
  */
 public class Test {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
 //        BaseCrawler quanshuwang = new Quanshuwang();
 //
 //        quanshuwang.Searching("斗罗大陆");
@@ -83,7 +83,9 @@ public class Test {
 
         System.out.println(IoUtil.getSuffix(url[0]));
 
+        System.out.println("inpustream:" + NetUtil.getImageInputStream(url[0]));
 
+        System.out.println("2222");
 //        for(int i = 0;i < 5;i++){
 //            final int index = i;
 //            fixedThreadPool.execute(new Thread(()->{

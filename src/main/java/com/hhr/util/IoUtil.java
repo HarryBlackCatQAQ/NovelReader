@@ -92,10 +92,32 @@ public class IoUtil {
      * @return 返回图片存储路径
      */
     public static String imagePath(){
-        return pathReplace(getSystemPath() + "\\src\\main\\java\\com\\hhr\\images\\");
+        return pathReplace(getSystemPath() + "\\src\\main\\java\\com\\hhr\\images\\cache\\");
     }
 
+    /**
+     *
+     * @param string
+     * @return 返回文件后缀
+     */
     public static String getSuffix(String string){
         return string.substring(string.lastIndexOf("."));
+    }
+
+    /**
+     *
+     * @param imageName
+     * @return 返回本地缓存图片的url
+     */
+    public static String getImageUrl(String imageName){
+        return "file:" + imagePath() + imageName;
+    }
+
+    /**
+     *
+     * @return 返回错误图片的路径
+     */
+    public static String getErrorImagePath(){
+        return pathReplace(getSystemPath() + "\\src\\main\\java\\com\\hhr\\images\\ErrorImage.jpg");
     }
 }

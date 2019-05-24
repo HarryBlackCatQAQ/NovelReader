@@ -1,5 +1,7 @@
 package com.hhr.model;
 
+import com.hhr.util.IoUtil;
+
 /**
  * @Author: Harry
  * @Date: 2019-05-23 12:56
@@ -10,6 +12,7 @@ public class Book  {
     private String name;
     private String author;
     private String url;
+    private String imageName;
 
 
     public String getImageUrl() {
@@ -44,6 +47,17 @@ public class Book  {
         this.url = url;
     }
 
+    public String getImageName() {
+        return imageName;
+    }
+
+    public void setImageName(String imageName) {
+        this.imageName = imageName;
+    }
+
+    public String getAutoImageName(){
+        return getName() + "-" + getAuthor() + IoUtil.getSuffix(getImageUrl());
+    }
 
     @Override
     public String toString() {
@@ -52,6 +66,7 @@ public class Book  {
                 ", name='" + name + '\'' +
                 ", author='" + author + '\'' +
                 ", url='" + url + '\'' +
+                ", imageName='" + imageName + '\'' +
                 '}';
     }
 }

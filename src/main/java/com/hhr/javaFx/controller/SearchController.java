@@ -1,17 +1,22 @@
 package com.hhr.javaFx.controller;
 
 import com.hhr.model.Book;
+import com.hhr.model.CheckBoxMaping;
 import com.hhr.model.Page;
 import com.hhr.services.BaseService;
 import com.hhr.services.impl.QuanshuwangService;
+import com.hhr.services.impl.VodtwService;
 import com.hhr.util.DownUtil;
 import com.jfoenix.controls.JFXButton;
+import com.jfoenix.controls.JFXCheckBox;
 import com.jfoenix.controls.JFXSpinner;
 import com.jfoenix.controls.JFXTextField;
 import javafx.application.Platform;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.scene.control.Button;
+import javafx.scene.control.CheckBox;
 import javafx.scene.layout.AnchorPane;
 
 
@@ -54,11 +59,38 @@ public class SearchController implements Initializable {
 
     private Page page;
 
+    private String preSearchingText = "";
+
+
+
+    @FXML
+    private JFXCheckBox vodtxCheckBox;
+
+    @FXML
+    private JFXCheckBox quanshuwangCheckBox;
+
+    @FXML
+    private Button testCheckBoxBtn;
+
+    private List<CheckBoxMaping> CheckBoxList;
+
+    @FXML
+    void testCheckBoxBtnClick(ActionEvent event) {
+        System.out.println("vodtxCheckBox:" + vodtxCheckBox.isSelected());
+        System.out.println("quanshuwangCheckBox:" + quanshuwangCheckBox.isSelected());
+        System.out.println("size:" + getCheckBoxNum());
+    }
 
     @FXML
     void searchingBtnClick(ActionEvent event) {
+        if(searchingBeforeLoading()){
+            return;
+        }
+
+
         System.out.println("搜索按钮点击！");
         System.out.println(searchingText.getText());
+        this.preSearchingText = searchingText.getText();
 
         loading.setVisible(true);
 
@@ -71,48 +103,112 @@ public class SearchController implements Initializable {
 
     }
 
+    private Boolean searchingBeforeLoading(){
+        if(preSearchingText.equals(searchingText.getText())){
+            System.out.println("查询过了");
+            return true;
+        }
+
+        if(getCheckBoxNum() == 0){
+            System.out.println("没有选择查询网站");
+            return true;
+        }
+
+
+        return false;
+    }
+
     @FXML
     void nextPageBtnClick(ActionEvent event) {
         page.setPageIdx(page.getPageIdx() + 1);
-        page.setStartIdxAndEndIdx();
-        writeCardList();
-        page.setPreAndNextBtnVisible();
+        RefreshPane();
     }
 
     @FXML
     void prePageBtnClick(ActionEvent event) {
         page.setPageIdx(page.getPageIdx() - 1);
-        page.setStartIdxAndEndIdx();
-        writeCardList();
-        page.setPreAndNextBtnVisible();
+        RefreshPane();
     }
 
     private void doService(){
+        List<List<Book>> list = new LinkedList<List<Book>>();
+
+        for(int i = 0;i < getCheckBoxNum();i++){
+            list.add(new LinkedList<Book>());
+        }
+
         new Thread(() -> {
-            BaseService service = new QuanshuwangService();
-            BookList = service.getBookList(searchingText.getText());
+            for(CheckBoxMaping checkBoxMaping : CheckBoxList){
+                BaseService service = getSearchingServiceWebType(checkBoxMaping);
+                new Thread(()->{
+                    list.add(service.getBookList(searchingText.getText()));
+                }).start();
+            }
+
+            try {
+                Thread.sleep(7000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+
+            System.out.println("!!!!!!!!!!!!!!!!!!!!!!!size:" + list.size());
+            for(int i = 1;i < list.size();i++){
+                List<Book> l = list.get(i);
+                System.out.println(l.size());
+            }
+
+            for(int i = 1;i < list.size();i++){
+                list.get(0).addAll(list.get(i));
+            }
+
+            BookList = list.get(0);
+
             page.setPageSum(BookList.size());
             System.out.println(BookList);
             System.out.println(page.getPageSum());
 
+            if(BookList.size() == 0){
+                RefreshPaneForNullSearching();
+                return;
+            }
+
+            System.out.println(this + "  1");
             DownUtil downUtil = new DownUtil(5);
-            downUtil.DownImage(BookList);
+            downUtil.DownImage(BookList,this);
 
             //DO SOMETHING WITH CONTROLLS ON FX THREAD ACCORDING RESULT OF OVER
-            Platform.runLater(() -> {
-                writeCardList();
-                setCardListVisible(true);
-                loading.setVisible(false);
-                page.setPreAndNextBtnVisible();
-            });
-//            Platform.runLater(new Runnable() {
+            doServiceLater();
+
+        }).start();
+    }
+
+    public void doServiceLater(){
+        Platform.runLater(() -> {
+//            writeCardList();
+            setCardListVisible(true);
+            loading.setVisible(false);
+//            page.setPreAndNextBtnVisible();
+
+            RefreshPane();
+        });
+
+        //            Platform.runLater(new Runnable() {
 //                @Override
 //                public void run() {
 //                    //javaFX operations should go here
 //                }
 //            });
+    }
 
-        }).start();
+    private BaseService getSearchingServiceWebType(CheckBoxMaping checkBoxMaping){
+        if(checkBoxMaping.getIdx() == 0){
+            return new VodtwService();
+        }
+        else if(checkBoxMaping.getIdx() == 1){
+            return new QuanshuwangService();
+        }
+
+        return null;
     }
 
     private void initPane(){
@@ -121,6 +217,7 @@ public class SearchController implements Initializable {
         nextPageBtn.setVisible(false);
         initCardList();
         page = new Page(prePageBtn,nextPageBtn);
+        initCheckBoxList();
     }
 
     private void initCardList(){
@@ -145,6 +242,25 @@ public class SearchController implements Initializable {
         }
     }
 
+    private void initCheckBoxList(){
+        this.CheckBoxList = new LinkedList<CheckBoxMaping>();
+        CheckBoxList.add(new CheckBoxMaping(vodtxCheckBox,0));
+        CheckBoxList.add(new CheckBoxMaping(quanshuwangCheckBox,1));
+    }
+
+    private void RefreshPane(){
+        page.setStartIdxAndEndIdx();
+        writeCardList();
+        page.setPreAndNextBtnVisible();
+    }
+
+    private void RefreshPaneForNullSearching(){
+        page.setPageSum(0);
+        setCardListVisible(false);
+        page.setPreAndNextBtnVisible();
+        loading.setVisible(false);
+    }
+
     private void setCardListVisible(boolean isVisible){
         for(CardPaneController cardPaneController : CardList){
             cardPaneController.setVisible(isVisible);
@@ -164,6 +280,17 @@ public class SearchController implements Initializable {
             CardPaneController cardPaneController = CardList.get(i);
             cardPaneController.setVisible(false);
         }
+    }
+
+    private int getCheckBoxNum(){
+        int sum = 0;
+        for(CheckBoxMaping checkBoxMaping : CheckBoxList){
+            if(checkBoxMaping.getCheckBox().isSelected()){
+                sum++;
+            }
+        }
+
+        return sum;
     }
 
 

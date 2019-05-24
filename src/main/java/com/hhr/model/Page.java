@@ -31,12 +31,20 @@ public class Page {
     }
 
     public void setPreAndNextBtnVisible(){
+        if(pageSum == 0){
+            this.prePageBtn.setVisible(false);
+            this.nextPageBtn.setVisible(false);
+            return;
+        }
+
         if(pageIdx == 1){
             this.prePageBtn.setVisible(false);
             if(pageSum == 1){
                 this.nextPageBtn.setVisible(false);
             }
-            this.nextPageBtn.setVisible(true);
+            else{
+                this.nextPageBtn.setVisible(true);
+            }
         }
         else if(pageIdx == pageSum){
             this.prePageBtn.setVisible(true);
@@ -49,6 +57,11 @@ public class Page {
     }
 
     public void setStartIdxAndEndIdx(){
+        if(pageSum == 0){
+            this.startBookIdx = this.endBookIdx = 0;
+            return;
+        }
+
         int s,e;
         if(pageIdx == pageSum){
             s = (pageIdx - 1) * 8 + 1;
@@ -74,6 +87,7 @@ public class Page {
         }
         this.bookSum = bookSum;
         this.pageSum = pageSum;
+        this.pageIdx = 1;
         setStartIdxAndEndIdx();
     }
 

@@ -1,6 +1,7 @@
 package com.hhr.crawler;
 
 import com.hhr.model.Book;
+import com.hhr.util.IoUtil;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
@@ -48,6 +49,8 @@ public class MyJsoup {
             book.setName(img.attr("alt"));
             book.setImageUrl(img.attr("src"));
             book.setAuthor(authorElement.text());
+//            book.setImageName(book.getName() + "-" + book.getAuthor() + IoUtil.getSuffix(book.getImageUrl()));
+            book.setImageName(book.getAutoImageName());
 
             BookList.add(book);
 
